@@ -14,7 +14,6 @@ const (
 
 func MainPageHandler(res http.ResponseWriter, req *http.Request) {
 	res.Header().Set("Content-Type", "text/html")
-
 	var logInTemplate = template.Must(template.New("home").ParseFiles(baseTemplate, homeTemplate))
 	logInTemplate.ExecuteTemplate(res, "base", nil)
 	return
