@@ -1,3 +1,3 @@
 # Go-Template
 
-A starter template for a Go webserver
+A starter template for a Go webserver. 
