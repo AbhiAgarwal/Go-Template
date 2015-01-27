@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	. "github.com/abhiagarwal/go-template/handlers"
+	. "github.com/abhiagarwal/go-template/simple/handlers"
 	negroni "github.com/codegangsta/negroni"
 )
 
